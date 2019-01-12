@@ -1,0 +1,22 @@
+<mat-card class="mat-card-userAdd">
+  Add User
+  <form [formGroup]="userForm" (ngSubmit)="add()">
+    <div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="first name" formControlName="first_name" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="last name" formControlName="last_name" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="avatar" formControlName="avatar" />
+      </mat-form-field>
+    </div>
+
+    <div class="">
+      <button class="example-button-add" mat-button color="">Add</button>
+    </div>
+  </form>
+</mat-card>

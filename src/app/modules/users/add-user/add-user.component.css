@@ -1,0 +1,35 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+.example-button-row {
+  padding-left: 50%;
+  background-color: dimgrey;
+}
+.example-button-add {
+  width: 100%;
+  background-color: dimgrey;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
+.mat-Card-userAdd {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 12%;
+}
